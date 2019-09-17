@@ -1,7 +1,7 @@
 # SQLSERVER->HDFS->PHOENIX
 
- sqoop目前暂不支持将RDBMS表直接导入phoenix表,故而编写以下脚本
- xxxx_wh_sqoop_job_create.sh创建sqoop job
+ + sqoop目前暂不支持将RDBMS表直接导入phoenix表,故而编写以下脚本
+ + xxxx_wh_sqoop_job_create.sh创建sqoop job
 
 ## 1.xxxx_wh_sqoop_job_incremental.sh将RDBMS表的数据增量拉取到HDFS,增量数据格式采用csv存储
 
